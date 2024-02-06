@@ -1,0 +1,70 @@
+body, html{
+    background-image: linear-gradient(to bottom right, rgb(210, 231, 210), rgb(219, 219, 167));
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin: 10px;
+    
+    
+    
+}
+
+#accept{
+    width: 30px;
+    height: 15px;
+}
+
+form{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-color: black;
+   
+}
+
+input{
+   
+    height: 30px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 5px;
+    
+    
+ }
+
+ h1{
+    font-size: 16px;
+    margin:  20px;
+ }
+
+ button{
+    
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    background-color: green;
+}

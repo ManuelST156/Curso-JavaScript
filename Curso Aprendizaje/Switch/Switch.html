@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <link rel="stylesheet" href="SwitchStyles.css">
+</head>
+<body>
+
+    
+
+    <div class="Principal">
+        <div class="Titulos">
+            <h1>Pagina de Convertidor de Unidades </h1>
+    
+            <h2>Selecciona la unidad a convertir:</h2>
+        </div>
+        
+        <div class="Opciones">
+            <label for="UnidadesOriginales">Unidad Original</label>
+            <select name="UnidadesOriginales" id="UnidadesOriginales">
+                <option value="" disabled selected hidden>Seleccione una opción</option>
+                <option value="Metro">Metro(M)</option>
+                <option value="Kilometro">Kilometro(KM)</option>
+                <option value="Centimetro">Centimetro(cm)</option>
+                <option value="Litro">Litro(L)</option>
+                <option value="Mililitro">Mililitro(ML)</option>
+                <option value="Toneladas">Toneladas(T)</option>
+                <option value="Gramos">Gramos(g)</option>
+                <option value="Kilogramos">Kilogramos(KG)</option>
+
+
+            </select>
+
+            <label for="UnidadesaConvertir">Unidad a Convertir</label>
+            <select name="UnidadesaConvertir" id="UnidadesaConvertir">
+                <option value="" disabled selected hidden>Seleccione una opción</option>
+                <option value="Metro">Metro(M)</option>
+                <option value="Kilometro">Kilometro(KM)</option>
+                <option value="Centimetro">Centimetro(cm)</option>
+                <option value="Litro">Litro(L)</option>
+                <option value="Mililitro">Mililitro(ML)</option>
+                <option value="Toneladas">Toneladas(T)</option>
+                <option value="Gramos">Gramos(g)</option>
+                <option value="Kilogramos">Kilogramos(KG)</option>
+            </select>
+            
+            
+        </div>
+
+        <div class="Valores">
+            <input type="text" name="valor" id="valor" placeholder="Introduce un valor">
+            <input type="text" name="valorConvertido" id="valorConvertido" placeholder="Introduce un valor" disabled>
+
+        </div>
+
+        <button type="button" onclick="Conversion()">Convertir</button>
+        
+
+
+    </div>
+
+    <script src="SwitchMain.js"></script>
+</body>
+</html>

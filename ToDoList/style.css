@@ -1,0 +1,178 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css');
+
+
+:root{
+    --Purple: rgb(29,4,97);
+    --White: white;
+    --Rose: rgb(215, 175, 224);
+    --lightPurple: rgb(130, 75, 130);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, rgba(51,186,179,1) 0%, rgba(61,23,100,1) 0%, rgba(51,186,179,1) 100%);
+    
+
+    
+}
+
+.Logo{
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 45%;
+    
+}
+
+h1{
+    margin-top: 200px;
+    text-align: center;
+    color:var(--White);
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    color:var(--Purple);
+   
+}
+
+
+form{
+    
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+    
+}
+
+form input[type="text"]{
+    width: 300px;
+    height: 30px;
+    border-style: none;
+    background:none;
+    font-size: 1.5em;
+    color: var(--Rose);
+
+}
+
+form input[type="text"]::placeholder{
+    color: var(--Rose);
+}
+
+form input[type="text"]:focus{
+    outline: none;
+}
+ 
+form input[type="submit"]{
+    font-size: 2em;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-style: none;
+    border-radius: 50%;
+    color: var(--Purple);
+    background-color: var(--White);
+    
+} 
+
+form input[type="submit"]:hover{
+    
+    background-color: var(--Purple);
+    color: var(--White);
+} 
+
+form input[type="submit"]:active{
+    color: var(--Purple);
+    background-color: var(--White);
+}
+
+label{
+    display: flex;
+    align-items: center; 
+    
+}
+
+input[type="checkbox"]{
+   height: 20px;
+   width: 20px;
+   appearance:none;
+   -webkit-appearance: none;
+   background-color: var(--White);
+   border: 2px solid var(--Purple);
+   cursor: pointer;
+   outline: none;
+   display: flex;
+   margin-right: 5px;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+input[type="checkbox"]:after{
+    content: "\f00c";
+    font-size: 15px;
+    color: white;
+    display: none;
+    font-family: "Font Awesome 6 Free";
+}
+
+input[type="checkbox"]:hover{
+    background-color: var(--lightPurple);
+}
+
+input[type="checkbox"]:checked{
+    background-color: var(--Purple);
+    
+}
+
+input[type="checkbox"]:checked::after{
+    display: block;
+}
+
+input[type="checkbox"]:checked:hover{
+    background-color: var(--lightPurple);
+}
+
+
+
+
+.List-Container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.Task-Container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border: 1px solid;
+    font-size: 1.3em;
+    background-color: var(--White);
+    color: var(--Purple);
+
+}
+
+.btnTrash{
+    width:20px;
+    height: 20px;
+    
+}
+
+.btnTrash:hover{
+    transform: scale(1.2);
+}
+
+#Stats{
+    margin-top: 25px;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--White);
+}

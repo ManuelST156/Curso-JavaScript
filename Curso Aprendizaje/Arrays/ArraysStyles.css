@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+button:active{
+    background-color: green;
+    color: white;
+}
+
+.Principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prom{
+    background-color: blue;
+}
+
+#prom:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+
+#prom:active{
+    background-color: blue;
+    color: white;
+}

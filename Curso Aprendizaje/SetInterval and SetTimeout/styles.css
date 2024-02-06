@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: rgb(3, 3, 92);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset{
+   width: 500px;
+   text-align: center;
+   border-radius: 5px;
+   padding: 10px 30px;
+   margin: 0 auto;
+}
+
+legend{
+    padding: 0 7px;
+}
+
+#Titulo{
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+#Subtitulo{
+    text-align: center;
+    margin: 30px 0 60px 0;
+    color: aqua;
+}
+
+#reloj{
+    margin: 30px 0 30px 0;
+    font-size: 70px;
+    background-color: rgb(172, 172, 244);
+    color: rgb(81, 0, 64);
+}

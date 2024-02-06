@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Participante {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(auto, 1fr);
+    gap: 20px;
+}
+  
+img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.Po{
+    margin: 0 30px ;
+}
+
+.IntroImg{
+    margin: 10px;
+    font-size: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+form{
+    text-align: center;
+}
+
+
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: green;
+
+}
+
+button:active{
+    background-color: green;
+    color: white;
+}
+
+.Points{
+    width: 100px;
+    height: 20px;
+    margin: 10px 70px;
+}
